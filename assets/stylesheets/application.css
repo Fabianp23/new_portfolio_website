@@ -1,1 +1,59 @@
+@media only screen and (min-width: 960px) {
 
+  body {
+    height: 100%;
+  }
+
+  .nav-bar {
+    width: 100%;
+    background-color: black;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav-bar a {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    font-size: .6em;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+  }
+
+  .nav-bar a:last-of-type {
+    margin-right: 10%;
+  }
+
+  #background-image {
+    width: 100%;
+    position: absolute;
+  }
+
+  .shadow-effect img {
+    -webkit-filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.8));
+  }
+
+  #logo-image {
+    width: 33%;
+    position: relative;
+    left: 12.5%;
+    margin-top: 20%;
+  }
+
+  #graphic-design {
+    width: 25%;
+    position: relative;
+    left: 12.5%;
+    margin-top: 10px;
+  }
+
+  #front-end {
+    width: 30%;
+    position: relative;
+    left: 12.5%;
+    margin-top: 5px;
+  }
+
+}
