@@ -1,5 +1,22 @@
 $(document).ready(function(){
 
+  function expandImg(img) {
+    $(img).on('mouseenter', function() {
+      $(this).animate({
+        padding: 5,
+        opacity: .5,
+      }, 300, function() {
+      });
+    });
+    $(img).on('mouseleave', function() {
+      $(this).animate({
+        padding: 0,
+        opacity: 1,
+      }, 100, function() {
+      });
+    });
+  };
+
   $('.dropdown a:first-of-type').on('mouseenter', function() {
     $('#dropdown-work').show('slow');
   });
@@ -8,27 +25,11 @@ $(document).ready(function(){
     $(this).hide('slow');
   });
 
-  $('#logo-image').hide('load', function() {
-    $(this).fadeIn(3000);
-  });
+  $('#logo-image').fadeIn(1000);
 
-  $('#graphic-design').hide('load', function() {
-    $(this).animate({left:200, opacity:'show'}, 1500);
-  });
+  $('#graphic-design').animate({left:'+=1.5em', opacity:1}, 1500);
 
-  $('#front-end').hide('load', function() {
-    $(this).animate({left:225, opacity:'show'}, 1500);
-  });
-
-
-  function expandImg(img) {
-    $(img).on('mouseenter', function() {
-      $(this).css('padding', '5px');
-    });
-    $(img).on('mouseleave', function() {
-      $(this).css('padding', '0px');
-    });
-  };
+  $('#front-end').animate({left:'+=2.5em', opacity:1}, 1500);
 
   expandImg('#logo-image');
   expandImg('#graphic-design');
