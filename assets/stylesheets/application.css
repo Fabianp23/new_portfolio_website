@@ -28,10 +28,6 @@
     width: 300px;
   }
 
-  .nav-bar a:hover:first-of-type {
-    color: #A2A2A2;
-  }
-
   .nav-bar a:hover {
     color: #FEEA34;
   }
@@ -41,7 +37,7 @@
     background-color: black;
     margin-top: 0px;
     padding-bottom: 10px;
-    margin-left: 53.3%;
+    margin-left: 53%;
     text-align: center;
   }
 
