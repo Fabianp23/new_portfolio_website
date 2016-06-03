@@ -1,5 +1,6 @@
 #New Portfolio Website
-##*Post Wyncode*
+
+##Technologies
  * HTML  
  * CSS  
  * JavaScript
