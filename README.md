@@ -1,5 +1,5 @@
-#New Portfolio Website (Post Wyncode)
-##Personal Portfolio Website
+#New Portfolio Website
+##*Post Wyncode*
  * HTML  
  * CSS  
  * JavaScript
