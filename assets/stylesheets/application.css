@@ -78,7 +78,7 @@
   }
 
   #logo-image {
-    width: 35%;
+    width: 30em;
     position: relative;
     left: 12em;
     margin-top: 20%;
@@ -86,7 +86,7 @@
   }
 
   #graphic-design {
-    width: 25%;
+    width: 21.5em;
     position: relative;
     left: 12em;
     margin: 0px;
@@ -94,11 +94,34 @@
   }
 
   #front-end {
-    width: 31%;
+    width: 26.5em;
     position: relative;
     left: 13em;
     margin: 0px;
     opacity: 0;
+  }
+
+/* ============================ CONTACT PAGE ================================ */
+
+  #contact-image {
+    width: 18em;
+    position: relative;
+    margin-top: 20%;
+    display: none;
+    left: 12em;
+  }
+
+  .contact-info i {
+    font-size: 2.5em;
+    color: white;
+    opacity: .1;
+    position: relative;
+    left: 3.8em;
+    margin-right: 5px;
+  }
+
+  .contact-info i:hover {
+    color: #FEEA34;
   }
 
 }
