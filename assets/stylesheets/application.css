@@ -118,10 +118,22 @@
     position: relative;
     left: 3.8em;
     margin-right: 5px;
+    margin-bottom: 5px;
   }
 
   .contact-info i:hover {
     color: #FEEA34;
+  }
+
+  .contact-info span {
+    position: relative;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(254,235,10, .5);
+    font-size: 2em;
+    left: 6.7em;
+    display: none;
   }
 
 }

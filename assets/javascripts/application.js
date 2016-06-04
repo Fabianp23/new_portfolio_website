@@ -17,6 +17,15 @@ $(document).ready(function(){
     });
   };
 
+  function showHidden(icon) {
+    $(icon).on('mouseenter', function() {
+        $(this).next('span').fadeIn();
+    });
+    $(icon).on('mouseleave', function() {
+        $(this).next('span').hide();
+    });
+  };
+
   $('.work').on('mouseenter', function() {
     $('#dropdown-work').show('slow');
   });
@@ -39,5 +48,10 @@ $(document).ready(function(){
   expandImg('#graphic-design');
   expandImg('#front-end');
   expandImg('.fa');
+  expandImg('#contact-image');
+  showHidden('.contact-phone');
+  showHidden('.contact-email');
+  showHidden('.contact-linkedin');
+  showHidden('.contact-github');
 
 });
