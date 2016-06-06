@@ -34,21 +34,19 @@ $(document).ready(function(){
     $(this).hide('slow');
   });
 
-  $('#logo-image').fadeIn(1000);
-
-  $('#contact-image').fadeIn(1000);
+  function fadeInOnLoad (img) {
+    $(img).fadeIn(1500);
+  };
 
   $('#graphic-design').animate({left:'+=1.5em', opacity:1}, 1500);
-
   $('#front-end').animate({left:'+=2.5em', opacity:1}, 1500);
-
   $('.fa').animate({left:'+=1.8em', opacity:1}, 1500);
 
-  expandImg('#logo-image');
+  fadeInOnLoad('#logo-image');
+  fadeInOnLoad('#contact-image');
   expandImg('#graphic-design');
   expandImg('#front-end');
   expandImg('.fa');
-  expandImg('#contact-image');
   showHidden('.contact-phone');
   showHidden('.contact-email');
   showHidden('.contact-linkedin');
