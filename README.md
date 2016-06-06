@@ -6,4 +6,4 @@
  * JavaScript
  * jQuery
 
-###[temporary link](www.powerful-shore-67847.herokuapp.com)
+###[temporary link](http://www.powerful-shore-67847.herokuapp.com)
