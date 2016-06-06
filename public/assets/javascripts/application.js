@@ -40,7 +40,7 @@ $(document).ready(function(){
 
   $('#graphic-design').animate({left:'+=1.5em', opacity:1}, 1500);
   $('#front-end').animate({left:'+=2.5em', opacity:1}, 1500);
-  $('.fa').animate({left:'+=1.8em', opacity:1}, 1500);
+  $('.fa').animate({left:'+=1.8em', opacity:1}, 1000);
 
   fadeInOnLoad('#logo-image');
   fadeInOnLoad('#contact-image');
