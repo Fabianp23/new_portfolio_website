@@ -19,11 +19,15 @@ $(document).ready(function(){
 
   function showHidden(icon) {
     $(icon).on('mouseenter', function() {
-        $(this).next('span').fadeIn();
+        $(this).next('span').fadeIn(1500);
     });
     $(icon).on('mouseleave', function() {
         $(this).next('span').hide();
     });
+  };
+
+  function fadeInOnLoad (img) {
+    $(img).fadeIn(1500);
   };
 
   $('.work').on('mouseenter', function() {
@@ -33,10 +37,6 @@ $(document).ready(function(){
   $('#dropdown-work').on('mouseleave', function() {
     $(this).hide('slow');
   });
-
-  function fadeInOnLoad (img) {
-    $(img).fadeIn(1500);
-  };
 
   $('#graphic-design').animate({left:'+=1.5em', opacity:1}, 1500);
   $('#front-end').animate({left:'+=2.5em', opacity:1}, 1500);
