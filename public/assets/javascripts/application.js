@@ -30,6 +30,10 @@ $(document).ready(function(){
     $(img).fadeIn(1500);
   };
 
+  $('.nav-bar a').on('mouseenter', function() {
+    $('#dropdown-work').hide('slow');
+  });
+
   $('.work').on('mouseenter', function() {
     $('#dropdown-work').show('slow');
   });
