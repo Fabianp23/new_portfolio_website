@@ -19,7 +19,7 @@ $(document).ready(function(){
 
   function showHidden(icon) {
     $(icon).on('mouseenter', function() {
-        $(this).next('span').fadeIn(1500);
+        $(this).next('span').fadeIn(500);
     });
     $(icon).on('mouseleave', function() {
         $(this).next('span').hide();

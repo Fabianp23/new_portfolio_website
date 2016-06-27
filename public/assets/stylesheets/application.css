@@ -206,7 +206,7 @@
   }
 
   .contact-info i:hover {
-    color: #FEEA34;
+    color: black;
   }
 
   .contact-info span {
@@ -214,7 +214,7 @@
     color: white;
     padding: 5px;
     border-radius: 2px;
-    background-color: rgba(254,235,10, .75);
+    background-color: rgba(0, 0, 0, .65);
     font-size: 2em;
     left: 6.8em;
     display: none;
