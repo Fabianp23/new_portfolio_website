@@ -120,26 +120,27 @@
 /* ============================== ABOUT PAGE ================================ */
 
   .about-me {
-    margin-top: 100px;
+    margin-top: 75px;
     background-color: white;
   }
 
   #about-me-image {
-    padding-top: 3px;
-    margin-left: 10%;
+    padding-top: 25px;
+    padding-bottom: 22px;
+    margin-left: 5%;
     width: 25%;
     border-radius: 2px;
     border: 1px solid rgba(255, 255, 255, .75);
   }
 
   #about-image {
-    padding: 5px 0 15px 0;
+    padding: 28px 0 15px 0;
     width: 20em;
   }
 
   #about-paragraph {
     float: right;
-    width: 50%;
+    width: 55%;
     margin-right: 13%;
     float: right;
   }
