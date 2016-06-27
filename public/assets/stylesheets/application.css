@@ -119,7 +119,39 @@
 
 /* ============================== ABOUT PAGE ================================ */
 
+  .about-me {
+    margin-top: 100px;
+    background-color: white;
+  }
 
+  #about-me-image {
+    padding-top: 3px;
+    margin-left: 10%;
+    width: 25%;
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, .75);
+  }
+
+  #about-image {
+    padding: 5px 0 15px 0;
+    width: 20em;
+  }
+
+  #about-paragraph {
+    float: right;
+    width: 50%;
+    margin-right: 13%;
+    float: right;
+  }
+
+  .about-me p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    letter-spacing: .05em;
+    line-height: 1.4em;
+    margin: 0;
+  }
 
 
 /* ============================ CONTACT PAGE ================================ */
