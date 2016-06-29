@@ -32,14 +32,25 @@ $(document).ready(function(){
 
   $('#web-heading').on('click', function() {
     $('.design-work').css('width', '15%');
-    $('#design-heading').css('margin-left', '5%');
-    $('.web-work').css('width', '85%');
+    $('.web-work').animate({
+      width: '85%',
+    }, 1500, function() {
+    });
+    $('#design-heading').animate({
+      marginLeft: '10%',
+    }, 1000, function(){
+    });
   })
 
   $('#design-heading').on('click', function() {
-    $('.web-work').css('width', '15%');
-    $('#web-heading').css('margin-left', '5%');
-    $('.design-work').css('width', '85%')
+    $('.web-work').animate({
+      width: '15%',
+    }, 1500, function(){
+    });
+    $('#web-heading').animate({
+      marginLeft: '10%',
+    }, 1000, function(){
+    });
   })
 
   $('.nav-bar a').on('mouseenter', function() {
