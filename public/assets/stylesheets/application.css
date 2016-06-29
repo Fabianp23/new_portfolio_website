@@ -114,18 +114,24 @@
     color: white;
   }
 
-  .design-work {
-    width: 50%;
-    height: 100vh;
-    display:inline-block;
-  }
-
   .web-work {
     width: 50%;
     height: 100vh;
     color: black;
     background-color: white;
     float: left;
+    display: none;
+  }
+
+  .design-work {
+    width: 50%;
+    height: 100vh;
+    display: none;
+    display: inline-block;
+  }
+
+  .design-work h2 {
+    display: none;
   }
 
 

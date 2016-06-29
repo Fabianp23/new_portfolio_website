@@ -26,8 +26,8 @@ $(document).ready(function(){
     });
   };
 
-  function fadeInOnLoad (img) {
-    $(img).fadeIn(1500);
+  function fadeInOnLoad(asset) {
+    $(asset).fadeIn(1500);
   };
 
   $('.nav-bar a').on('mouseenter', function() {
@@ -49,6 +49,8 @@ $(document).ready(function(){
   fadeInOnLoad('#about-image');
   fadeInOnLoad('#logo-image');
   fadeInOnLoad('#contact-image');
+  fadeInOnLoad('.web-work');
+  fadeInOnLoad('#design-name');
   fadeInOnLoad('#about-me-image');
   expandImg('#graphic-design');
   expandImg('#front-end');
