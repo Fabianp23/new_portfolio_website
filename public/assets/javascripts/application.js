@@ -30,7 +30,7 @@ $(document).ready(function(){
     $(element).fadeIn(1500);
   };
 
-  $('#web-heading').on('click', function() {
+  $('#web-heading').mouseenter(function() {
     $('.design-work').css('width', '15%');
     $('.web-work').animate({
       width: '85%',
@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
   })
 
-  $('#design-heading').on('click', function() {
+  $('#design-heading').mouseenter(function() {
     $('.web-work').animate({
       width: '15%',
     }, 1500, function(){
