@@ -186,11 +186,16 @@
     margin: 0;
   }
 
-  .about-me p:last-of-type {
-    margin-top: -10px;
-    padding-bottom: 5px;
+  .about-me p:first-of-type {
+    padding: 0 0 5px 0;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
-    margin-bottom: 10px;
+    margin: 10px 0 15px 0;
+  }
+
+  .about-me p:last-of-type {
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin: 0 0 15px 0;
   }
 
   .about-me span {
