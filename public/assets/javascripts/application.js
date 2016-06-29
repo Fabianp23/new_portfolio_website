@@ -69,7 +69,6 @@ $(document).ready(function(){
   $('#front-end').animate({left:'+=2.5em', opacity:1}, 1500);
   $('.fa').animate({left:'+=1.8em', opacity:1}, 1000);
 
-  fadeInOnLoad('#about-image');
   fadeInOnLoad('#logo-image');
   fadeInOnLoad('#contact-image');
   fadeInOnLoad('.web-work');
