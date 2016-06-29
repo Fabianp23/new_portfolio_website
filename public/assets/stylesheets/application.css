@@ -110,8 +110,8 @@
     margin: 10em 0 0 3em;
   }
 
-  .all-work {
-    color: white;
+  .all-work a {
+    text-decoration: none;
   }
 
   .web-work {
@@ -130,8 +130,21 @@
     display: inline-block;
   }
 
+  .web-work h2 {
+    color: black;
+  }
+
+  .web-work h2:hover {
+    opacity: .5;
+  }
+
   .design-work h2 {
+    color: white;
     display: none;
+  }
+
+  .design-work h2:hover {
+    opacity: .5;
   }
 
 

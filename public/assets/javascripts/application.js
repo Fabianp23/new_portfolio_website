@@ -1,14 +1,14 @@
 $(document).ready(function(){
 
-  function expandImg(img) {
-    $(img).on('mouseenter', function() {
+  function expandImg(element) {
+    $(element).on('mouseenter', function() {
       $(this).animate({
         padding: 5,
         opacity: .5,
       }, 300, function() {
       });
     });
-    $(img).on('mouseleave', function() {
+    $(element).on('mouseleave', function() {
       $(this).animate({
         padding: 0,
         opacity: 1,
@@ -19,16 +19,28 @@ $(document).ready(function(){
 
   function showHidden(icon) {
     $(icon).on('mouseenter', function() {
-        $(this).next('span').fadeIn(500);
+      $(this).next('span').fadeIn(500);
     });
     $(icon).on('mouseleave', function() {
-        $(this).next('span').hide();
+      $(this).next('span').hide();
     });
   };
 
-  function fadeInOnLoad(asset) {
-    $(asset).fadeIn(1500);
+  function fadeInOnLoad(element) {
+    $(element).fadeIn(1500);
   };
+
+  $('#web-heading').on('click', function() {
+    $('.design-work').css('width', '15%');
+    $('#design-heading').css('margin-left', '5%');
+    $('.web-work').css('width', '85%');
+  })
+
+  $('#design-heading').on('click', function() {
+    $('.web-work').css('width', '15%');
+    $('#web-heading').css('margin-left', '5%');
+    $('.design-work').css('width', '85%')
+  })
 
   $('.nav-bar a').on('mouseenter', function() {
     $('#dropdown-work').hide('slow');
@@ -50,7 +62,7 @@ $(document).ready(function(){
   fadeInOnLoad('#logo-image');
   fadeInOnLoad('#contact-image');
   fadeInOnLoad('.web-work');
-  fadeInOnLoad('#design-name');
+  fadeInOnLoad('#design-heading');
   fadeInOnLoad('#about-me-image');
   expandImg('#graphic-design');
   expandImg('#front-end');
