@@ -36,10 +36,16 @@ $(document).ready(function(){
       width: '85%',
     }, 1500, function() {
     });
-    $('#design-heading').animate({
-      marginLeft: '10%',
+    $('#web-heading').animate({
+      marginLeft: '20px',
     }, 1000, function(){
     });
+    $('#design-heading').animate({
+      marginLeft: '20px',
+    }, 1000, function(){
+    });
+    $('.web-work > div').css('display', 'inline-block');
+    $('.web-work > div').fadeIn(1500);
   })
 
   $('#design-heading').mouseenter(function() {
@@ -48,10 +54,15 @@ $(document).ready(function(){
       width: '15%',
     }, 1500, function(){
     });
-    $('#web-heading').animate({
-      marginLeft: '10%',
+    $('#design-heading').animate({
+      marginLeft: '20px',
     }, 1000, function(){
     });
+    $('#web-heading').animate({
+      marginLeft: '20px',
+    }, 1000, function(){
+    });
+    $('.web-work > div').fadeOut();
   })
 
   $('.nav-bar a').on('mouseenter', function() {

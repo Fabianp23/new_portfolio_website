@@ -126,12 +126,15 @@
   .design-work {
     width: 50%;
     height: 100vh;
+    overflow: hidden;
     display: inline-block;
   }
 
   .web-work h2 {
     color: black;
     display: inline-block;
+    margin-right: 25px;
+    float: left;
   }
 
   .web-work h2:hover {
@@ -145,6 +148,26 @@
 
   .design-work h2:hover {
     opacity: .5;
+  }
+
+  .web-work > div {
+    margin-right: -1%;
+    width: 28.5%;
+    height: 100%;
+    display: none;
+    overflow: hidden;
+  }
+
+  .polyguin {
+    background-color: #222222;
+  }
+
+  .arrested-development {
+    background-color: white;
+  }
+
+  .quick-boost {
+    background-color: #1D5082;
   }
 
 /* ============================== ABOUT PAGE ================================ */
