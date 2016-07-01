@@ -232,7 +232,7 @@
     color: white;
     opacity: .1;
     position: relative;
-    left: 3.8em;
+    left: 6em;
     margin-right: 5px;
     margin-bottom: 5px;
   }
@@ -248,7 +248,7 @@
     border-radius: 2px;
     background-color: rgba(0, 0, 0, .65);
     font-size: 2em;
-    left: 6.8em;
+    left: 9.5em;
     display: none;
   }
 
