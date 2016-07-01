@@ -43,6 +43,7 @@ $(document).ready(function(){
   })
 
   $('#design-heading').mouseenter(function() {
+    $(this).css('display', 'inline-block');
     $('.web-work').animate({
       width: '15%',
     }, 1500, function(){

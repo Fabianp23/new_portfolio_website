@@ -126,12 +126,12 @@
   .design-work {
     width: 50%;
     height: 100vh;
-    display: none;
     display: inline-block;
   }
 
   .web-work h2 {
     color: black;
+    display: inline-block;
   }
 
   .web-work h2:hover {
@@ -146,7 +146,6 @@
   .design-work h2:hover {
     opacity: .5;
   }
-
 
 /* ============================== ABOUT PAGE ================================ */
 
