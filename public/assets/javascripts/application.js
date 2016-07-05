@@ -44,7 +44,7 @@ $(document).ready(function(){
       marginLeft: '20px',
     }, 1000, function(){
     });
-    $('.web-projects').css('display', 'block');
+    $('.web-projects').fadeIn(3000).css('display', 'block');
   })
 
   $('#design-heading').mouseenter(function() {
@@ -61,7 +61,7 @@ $(document).ready(function(){
       marginLeft: '20px',
     }, 1000, function(){
     });
-    $('.web-work > div').fadeOut();
+    $('.web-projects').fadeOut(300);
   })
 
   $('.nav-bar a').on('mouseenter', function() {
