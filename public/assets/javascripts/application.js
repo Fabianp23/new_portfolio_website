@@ -44,8 +44,7 @@ $(document).ready(function(){
       marginLeft: '20px',
     }, 1000, function(){
     });
-    $('.web-work > div').css('display', 'inline-block');
-    $('.web-work > div').fadeIn(1500);
+    $('.web-projects').css('display', 'block');
   })
 
   $('#design-heading').mouseenter(function() {
@@ -89,6 +88,7 @@ $(document).ready(function(){
   expandImg('#graphic-design');
   expandImg('#front-end');
   expandImg('.fa');
+  expandImg('.web-projects > img');
   showHidden('.contact-phone');
   showHidden('.contact-email');
   showHidden('.contact-linkedin');

@@ -133,7 +133,7 @@
   .web-work h2 {
     color: black;
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 7.5%;
     float: left;
   }
 
@@ -150,24 +150,18 @@
     opacity: .5;
   }
 
-  .web-work > div {
-    margin-right: -1%;
-    width: 28.5%;
-    height: 100%;
+  .web-projects {
+    margin: 18.2em 0 0 0;
     display: none;
-    overflow: hidden;
   }
 
-  .polyguin {
-    background-color: #222222;
+  .web-projects img {
+    width: 125px;
+    margin-right: 5%;
   }
 
-  .arrested-development {
-    background-color: white;
-  }
-
-  .quick-boost {
-    background-color: #1D5082;
+  #polyguin-logo {
+    width: 225px;
   }
 
 /* ============================== ABOUT PAGE ================================ */
